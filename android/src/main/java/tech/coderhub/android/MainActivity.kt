@@ -31,7 +31,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     }
 
     private fun setUpRoleBaseView() {
-        navigationView.menu.findItem(R.id.nav_order).isVisible = true
+//        navigationView.menu.findItem(R.id.nav_order).isVisible = true
     }
 
     override fun onBackPressed() {
