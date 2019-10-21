@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="time_out_error">Connection timeout due to slow internet connection. Please try again</string>
+    <string name="oops_connect_your_internet">Oops! Connect your Internet</string>
+    <string name="unknown_error">Something went wrong, Please try again!</string>
+</resources>

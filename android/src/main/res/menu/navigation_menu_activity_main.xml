@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_requisition"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Requisition" />
+        <item
+            android:id="@+id/nav_order"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Order" />
+        <item
+            android:id="@+id/nav_merchant"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/merchant_text" />
+        <item
+            android:id="@+id/nav_consumer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/consumer_text" />
+        <item
+            android:id="@+id/nav_others"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/others_text" />
+        <item
+            android:id="@+id/nav_merchant_list"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Merchant List" />
+        <item
+            android:id="@+id/nav_consumer_list"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Consumer List" />
+        <item
+            android:id="@+id/nav_others_list"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Others List" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Logout" />
+    </group>
+
+</menu>
